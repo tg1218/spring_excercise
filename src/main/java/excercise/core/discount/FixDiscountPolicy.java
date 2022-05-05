@@ -2,7 +2,9 @@ package excercise.core.discount;
 
 import excercise.core.member.Grade;
 import excercise.core.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class FixDiscountPolicy implements DiscountPolicy {
     private static final int DISCOUNT_FIX = 1000;
 
